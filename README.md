@@ -1,4 +1,4 @@
-# League Skeleton
+# Ezdb
 
 [![Latest Version](https://img.shields.io/github/release/zblues/ezdb.svg?style=flat-square)](https://github.com/zblues/ezdb/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)

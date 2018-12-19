@@ -1,17 +1,16 @@
 {
-    "name": "league/:package_name",
-    "description": ":package_description",
+    "name": "zblues/ezdb",
+    "description": "Codeigniter DB Helper",
     "keywords": [
-        "league",
-        "package"
+        "ezdb"
     ],
-    "homepage": "https://github.com/php-loep/:package_name",
+    "homepage": "https://github.com/zblues/ezdb",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author_email@example.com",
-            "homepage": "http://author-website.example.com",
+            "name": "Sanghoon Youn",
+            "email": "sanghoon.youn@gmail.com",
+            "homepage": "https://github.com/zblues",
             "role": "Developer"
         }
     ],
@@ -23,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\Skeleton\\": "src"
+            "Zblues\\Codeigniter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Skeleton\\Test\\": "tests"
+            "Zblues\\Codeigniter\\Test\\": "tests"
         }
     },
     "extra": {

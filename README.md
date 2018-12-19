@@ -1,13 +1,13 @@
 # League Skeleton
 
-[![Latest Version](https://img.shields.io/github/release/thephpleague/skeleton.svg?style=flat-square)](https://github.com/thephpleague/skeleton/releases)
+[![Latest Version](https://img.shields.io/github/release/zblues/ezdb.svg?style=flat-square)](https://github.com/zblues/ezdb/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/thephpleague/skeleton/master.svg?style=flat-square)](https://travis-ci.org/thephpleague/skeleton)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/skeleton.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/skeleton/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/thephpleague/skeleton.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/skeleton)
-[![Total Downloads](https://img.shields.io/packagist/dt/league/skeleton.svg?style=flat-square)](https://packagist.org/packages/league/skeleton)
+[![Build Status](https://img.shields.io/travis/zblues/ezdb/master.svg?style=flat-square)](https://travis-ci.org/zblues/ezdb)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/zblues/ezdb.svg?style=flat-square)](https://scrutinizer-ci.com/g/zblues/ezdb/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/zblues/ezdb.svg?style=flat-square)](https://scrutinizer-ci.com/g/zblues/ezdb)
+[![Total Downloads](https://img.shields.io/packagist/dt/zblues/ezdb.svg?style=flat-square)](https://packagist.org/packages/zblues/ezdb)
 
-**Note:** Replace `skeleton` with the correct package name in the above URLs, then delete this line.
+**Note:** Replace `ezdb` with the correct package name in the above URLs, then delete this line.
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
 PSRs you support to avoid any confusion with users and contributors.
@@ -17,14 +17,14 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require league/skeleton
+$ composer require zblues/ezdb
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$ezdb = new Zblues\Codeigniter\Ezdb($this);
+echo $ezdb->select('SELECT * FROM Table');
 ```
 
 ## Testing
@@ -35,12 +35,12 @@ $ phpunit
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/thephpleague/:package_name/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/zblues/ezdb/blob/master/CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
-- [All Contributors](https://github.com/thephpleague/:package_name/contributors)
+- [Sanghoon Youn](https://github.com/zblues)
+- [All Contributors](https://github.com/zblues/ezdb/contributors)
 
 ## License
 
